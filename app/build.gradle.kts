@@ -60,7 +60,11 @@ dependencies {
     // retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+
     // coil (nalaganje slik)
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
+
+    // viewModel
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 }
